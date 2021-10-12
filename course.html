@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Pop Rock škola Sarajevo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="slike/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">NASLOVNA</a></li>
+						<li><a href="about.html">O NAMA</a></li>
+						<li><a href="course.html">ODSJECI</a></li>
+						<li><a href="galerija.html">GALERIJA</a></li>
+						<li><a href="contact.html">KONTAKT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+
+			<h1></h1>
+
+
+		</section>
+
+
+
+		<!----- odsjeci ----->
+
+		<table class="content-table center">
+			<thead>
+				<tr>
+					<th>Odsjek</th>
+					<th>Mentor(i)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Pop Rock pjevanje</td>
+					<td>Prof. mr. Dejana Hršum <br> Prof. Mima Zukan</td>
+				</tr>
+				<tr>
+				<td>Akustična / Električna gitara</td>
+				<td>Jasmin Fajić</td>
+			</tr>
+			<tr>
+				<td>Bass gitara</td>
+				<td>Ernad Bihorac</td>
+			</tr>
+			<tr>
+					<td>Klavir / Klavijature</td>
+					<td>Dino Olovčić</td>
+				</tr>
+				<tr>
+					<td>Saxophon</td>
+					<td>Prof.Adnan Cico</td>
+				</tr>
+				<tr>
+					<td>Bubanj i udaraljke</td>
+					<td>Ernad Bihorac <br> Gordan Kranjčić</td>
+				</tr>
+				<tr>
+					<td>Rock Band Project</td>
+					<td>Jasmin Fajić <br> Ernad Bihorac</td>
+				</tr>
+				<tr>
+					<td>Rock Choir Project</td>
+					<td>Prof.Mima Zukan</td>
+				</tr>
+				<tr>
+					<td>Ansambl gitara</td>
+					<td>Jasmin Fajić</td>
+				</tr>
+				<tr>
+					<td>Radionica afričkih udaraljki</td>
+					<td>Gordan Kranjčić <br> Robert Kranjčić</td>
+				</tr>
+				<tr>
+					<td>Mala škola Rock and Roll-a</td>
+					<td>Ernad Bihorac <br>Asist.Ana Milanović</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<section>
+			
+		</section>
+
+		
+
+		<!----Footer---->
+
+		<section class="footer">
+			<h4>O nama</h4>
+			<p>Naši studenti dolaze iz gotovo svih dijelova Bosne i Hercegovine (Sarajevo, Istočno Sarajevo, Zenica, Goražde, Gornji Vakuf,, Kakanj, Kiseljak, Mostar, Jablanica..) a obzirom na veliki broj stranaca prisutnih u glavnom gradu, pored lokalnih  studenata,imamo i znatan broj inostranih studenata iz  Česke, Amerike, Rusije, Španije, Egipta, Indije, Švedske, Francuske, Srbije, Makedonije itd. 
+				Nastava je dvojezična-bhs i engleski jezik.<br>
+
+				Česti smo i rado zvani gosti kako na domaćim tako i na internacionalnim festivalima, takmičenjima i talent showima ( BiH, Srbija, Hrvatska, Malta, Rusija) gdje naši studenti imaju priliku da poslušaju rad inostranih pjevača, muzičara, izvođača te ostvare značajne kontakte važne sa njihov dalji muzički angažman.
+			</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+
+		</section>
+
+
+
+
+
+		<!------JavaScript for Toggle Menu------>
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu() {
+				navLinks.style.right = "-200px";
+			}
+
+		</script>
+	</body>
+	</html>

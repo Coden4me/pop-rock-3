@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Pop Rock škola Sarajevo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="slike/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">NASLOVNA</a></li>
+						<li><a href="about.html">O NAMA</a></li>
+						<li><a href="course.html">ODSJECI</a></li>
+						<li><a href="galerija.html">GALERIJA</a></li>
+						<li><a href="contact.html">KONTAKT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+
+			<h1></h1>
+
+
+		</section>
+
+
+
+		<!----- o nama sadrzaj ----->
+
+		<section class="about-us">
+			
+			<div class="row">
+				<div class="about-col">
+					<h1>Pop Rock škola Sarajevo</h1>
+					<p>„Pop Rock škola Sarajevo“ postaje mjesto okupljanja mladih talentovanih pjevača, instrumentalista, muzičara i izvođača koji dolaze sa željom da se muzički usavrše, prošire muzičke vidike te da se umreže sa drugim muzičarima.
+						Na našem repertoaru edukacije se uče pjevati i svirati  kako domaće, tako i strane popularne pop i rock harmonije. Nakon što polaznik savlada osnove individualnog programa pažljivo sastavljenog za svakog pojedinca prema njegovim potrebama i vještinama, počinje proces muziciranja kroz „Rock band program“.
+					Postoji muzički stil za svakog pojedinca a na nama je da to otkrijemo! Svaki polaznik zaslužuje pravo da dostigne svoj maksimalni potencijal.<br>
+					Česti smo i rado zvani gosti kako na domaćim tako i na internacionalnim festivalima, takmičenjima i talent showima ( BiH, Srbija, Hrvatska, Malta, Rusija) gdje naši studenti imaju priliku da poslušaju rad inostranih pjevača, muzičara, izvođača te ostvare značajne kontakte važne sa njihov dalji muzički angažman. <br>
+				Pored muzičkih aktivnosti radimo I na pripremama za scenski nastup, organizujemo interna preslušavanja na kojim radimo na suzbijanju straha od javnog nastupa, razgovaramo sa našim članovima I redovno pratimo napredak svakog studenta ponaosob.</p>
+					<a href="course.html" class="hero-btn yellow-btn">ISTRAŽI</a>
+
+				</div>
+				<div class="about-col">
+					<img src="slike/supertalent1.jpg">
+				</div>
+			</div>
+		</section>
+
+		
+
+		<!----Footer---->
+
+		<section class="footer">
+			<h4>O nama</h4>
+			<p>Naši studenti dolaze iz gotovo svih dijelova Bosne i Hercegovine (Sarajevo, Istočno Sarajevo, Zenica, Goražde, Gornji Vakuf,, Kakanj, Kiseljak, Mostar, Jablanica..) a obzirom na veliki broj stranaca prisutnih u glavnom gradu, pored lokalnih  studenata,imamo i znatan broj inostranih studenata iz  Česke, Amerike, Rusije, Španije, Egipta, Indije, Švedske, Francuske, Srbije, Makedonije itd. 
+				Nastava je dvojezična-bhs i engleski jezik.<br>
+
+				Česti smo i rado zvani gosti kako na domaćim tako i na internacionalnim festivalima, takmičenjima i talent showima ( BiH, Srbija, Hrvatska, Malta, Rusija) gdje naši studenti imaju priliku da poslušaju rad inostranih pjevača, muzičara, izvođača te ostvare značajne kontakte važne sa njihov dalji muzički angažman.
+			</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+
+		</section>
+
+
+
+
+
+		<!------JavaScript for Toggle Menu------>
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu() {
+				navLinks.style.right = "-200px";
+			}
+
+		</script>
+	</body>
+	</html>

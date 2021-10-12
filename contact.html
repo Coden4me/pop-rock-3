@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Pop Rock škola Sarajevo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="slike/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">NASLOVNA</a></li>
+						<li><a href="about.html">O NAMA</a></li>
+						<li><a href="course.html">ODSJECI</a></li>
+						<li><a href="galerija.html">GALERIJA</a></li>
+						<li><a href="contact.html">KONTAKT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+
+			<h1></h1>
+
+
+		</section>
+
+
+
+		<!----- contact ----->
+
+		<section class="location">
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.152813310023!2d18.39648841572776!3d43.85266124752739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9692463b1cb%3A0x4125c306e5d62a6d!2sDje%C4%8Dija%20ku%C4%87a%20Novo%20Sarajevo!5e0!3m2!1shr!2shr!4v1629202457921!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			
+		</section>
+
+		<section class="contact-us">
+
+			<div class="row">
+				<div class="contact-col">
+					<div>
+						<i class="fa fa-home"></i>
+						<span>
+							<h5>Dječija kuća Novo Sarajevo</h5>
+							<p>Grbavička bb, Sarajevo 71000, Bosna i Hercegovina</p>
+						</span>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<span>
+							<h5>+38761456738</h5>
+							<p>Ponedjeljak - Subota</p>
+						</span>
+					</div>
+
+					<div>
+						<i class="fa fa-envelope-o"></i>
+						<span>
+							<h5>info@poprockskolasarajevo.com</h5>
+							<p>Kontaktirajte nas</p>
+						</span>
+					</div>
+
+				</div>
+				<div class="contact-col">
+					
+					<form action="formhandler.php" method="post">
+						<input type="text" name="name" placeholder="Ime" required>
+						<input type="email" name="email" placeholder="E-mail" required>
+						<input type="text" name="subject" placeholder="Subject" required>
+						<textarea rows="8" name="message" placeholder="Poruka" required></textarea>
+						<button type="submit" class="hero-btn yellow-btn">Pošaljite poruku</button>
+					</form>
+
+				</div>
+			</div>
+			
+		</section>
+		
+
+		<!----Footer---->
+
+		<section class="footer">
+			<h4>O nama</h4>
+			<p>Naši studenti dolaze iz gotovo svih dijelova Bosne i Hercegovine (Sarajevo, Istočno Sarajevo, Zenica, Goražde, Gornji Vakuf,, Kakanj, Kiseljak, Mostar, Jablanica..) a obzirom na veliki broj stranaca prisutnih u glavnom gradu, pored lokalnih  studenata,imamo i znatan broj inostranih studenata iz  Česke, Amerike, Rusije, Španije, Egipta, Indije, Švedske, Francuske, Srbije, Makedonije itd. 
+				Nastava je dvojezična-bhs i engleski jezik.<br>
+
+				Česti smo i rado zvani gosti kako na domaćim tako i na internacionalnim festivalima, takmičenjima i talent showima ( BiH, Srbija, Hrvatska, Malta, Rusija) gdje naši studenti imaju priliku da poslušaju rad inostranih pjevača, muzičara, izvođača te ostvare značajne kontakte važne sa njihov dalji muzički angažman.
+			</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+
+		</section>
+
+
+
+
+
+		<!------JavaScript for Toggle Menu------>
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu() {
+				navLinks.style.right = "-200px";
+			}
+
+		</script>
+	</body>
+	</html>

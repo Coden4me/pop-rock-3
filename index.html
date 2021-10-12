@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Pop Rock škola Sarajevo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="slike/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">NASLOVNA</a></li>
+						<li><a href="about.html">O NAMA</a></li>
+						<li><a href="course.html">ODSJECI</a></li>
+						<li><a href="galerija.html">GALERIJA</a></li>
+						<li><a href="contact.html">KONTAKT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+
+			<div class="text-box">
+				<h1>Pop Rock škola Sarajevo</h1>
+				<p>Sa željom da se nastavi priča sarajevske pop rock scene koja je zlatno doba obilježila od 1960. do 1991. godine, <br> 2016. godine, gotovo 25 godina kasnije dolazi do ideje da se pokrene Pop Rock Odsjek pjevanja a koji ce biti razlog i osnivanja „Pop Rock Škole Sarajevo“</p>
+				<a href="about.html" class="hero-btn">Saznaj više</a>
+			</div>
+
+
+		</section>
+
+		<!----- Odsjeci ----->
+
+		<section class="course">
+			<h1>Pop Rock škola Sarajevo</h1>
+			<p>Pridružite nam se!</p>
+
+			<div class="row">
+				<div class="course-col">
+					<h3>Mentori</h3>
+					<p>Kvalitetni,visoko edukovani predavači-mentori sa internacionalnim višegodišnjim iskustvom na sceni  kao solo izvođači, solisti, kompozitori, prosvjetni radnici i umjetnici  su ono što našoj priči daje siriozitet.</p>
+				</div>
+
+				<div class="course-col">
+					<h3>Članstvo</h3>
+					<p>Za članstvo u “Pop Rock Školi Sarajevo” nikada nije prerano ili prekasno. Mi smo škola za sve generacije te svako ko želi da se bavi muzikom bilo profesionalno ili iz hobija, može da postane naš član. Gornja dobna granica ne postoji a za one najmlađe osmislili smo program “Mala škola Rock and Rolla” (uzrast od 3 do 8 godina).</p>
+				</div>
+
+				<div class="course-col">
+					<h3>Druženja</h3>
+					<p>„ Pop Rock Škola Sarajevo“ ima preko 100 članova među kojima njegujemo drugarstvo, kolegijalnost i timski rad. Na muziku i izvođačke umjetnosti gledamo kao na temeljni dio formiranja ličnosti čovjeka. Vjerujemo da je muzika univerzalan jezik koji omogućava ljudima različitih kultura širom svijeta da komuniciraju kroz osjećanja i emocije.</p>
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+		<!----Call To Action---->
+		<section class="cta">
+			<h1>Pridružite nam se!</h1>
+			<a href="contact.html" class="hero-btn">Kontakt</a>
+		</section>
+
+		<!----Footer---->
+
+		<section class="footer">
+			<h4>O nama</h4>
+			<p>Naši studenti dolaze iz gotovo svih dijelova Bosne i Hercegovine (Sarajevo, Istočno Sarajevo, Zenica, Goražde, Gornji Vakuf,, Kakanj, Kiseljak, Mostar, Jablanica..) a obzirom na veliki broj stranaca prisutnih u glavnom gradu, pored lokalnih  studenata,imamo i znatan broj inostranih studenata iz  Česke, Amerike, Rusije, Španije, Egipta, Indije, Švedske, Francuske, Srbije, Makedonije itd. 
+				Nastava je dvojezična-bhs i engleski jezik.<br>
+
+				Česti smo i rado zvani gosti kako na domaćim tako i na internacionalnim festivalima, takmičenjima i talent showima ( BiH, Srbija, Hrvatska, Malta, Rusija) gdje naši studenti imaju priliku da poslušaju rad inostranih pjevača, muzičara, izvođača te ostvare značajne kontakte važne sa njihov dalji muzički angažman.
+			</p>
+
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+			</div>
+
+		</section>
+
+
+
+
+
+		<!------JavaScript for Toggle Menu------>
+
+		<script>
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu() {
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu() {
+				navLinks.style.right = "-200px";
+			}
+
+		</script>
+	</body>
+	</html>
+
+
+
+	
